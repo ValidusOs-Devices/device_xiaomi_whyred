@@ -27,7 +27,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/Gcam/config.mk)
 
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/validus/common_full_phone.mk)
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
 PRODUCT_NAME := alidus_whyred
 PRODUCT_BRAND := Xiaomi
