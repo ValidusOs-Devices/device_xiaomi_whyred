@@ -167,9 +167,16 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=2048
 
-
 # Enable B-services
 ro.vendor.qti.sys.fw.bservice_enable=true
+
+#dalvik
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
 
 #Bringup properties
 persist.vendor.radio.atfwd.start=true
