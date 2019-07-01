@@ -167,6 +167,10 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=2048
 
+
+# Enable B-services
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 #Bringup properties
 persist.vendor.radio.atfwd.start=true
 
