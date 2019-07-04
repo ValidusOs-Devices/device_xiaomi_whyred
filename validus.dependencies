@@ -1,6 +1,6 @@
 [
   {
-    "repository": "https://github.com/srfarias/kernel_xiaomi_whyred",
+    "repository": "srfarias/kernel_xiaomi_whyred",
     "target_path": "kernel/xiaomi/whyred",
     "branch": "caf-pie"
   },
