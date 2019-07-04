@@ -29,7 +29,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/Gcam/config.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := alidus_whyred
+PRODUCT_NAME := validus_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
