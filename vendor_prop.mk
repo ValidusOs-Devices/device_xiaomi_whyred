@@ -26,10 +26,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
     ro.build.shutdown_timeout=0 \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
-    sys.vendor.shutdown.waittime=500 \
-    persist.vendor.qcomsysd.enabled=1 \
+    ro.opengles.version=196610 \
+    vendor.qcom.bluetooth.soc=cherokee \
 
-# Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \
     audio.deep_buffer.media=true \
@@ -42,11 +41,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.sdk.ssr=false \
     ro.vendor.audio.sos=true \
     persist.vendor.audio.fluence.voicecall=true \
-    persist.vendor.audio.fluence.voicerec=true \
+    persist.vendor.audio.fluence.voicerec=false \
     persist.vendor.audio.fluence.speaker=true \
-    persist.vendor.audio.hifi.int_codec=true \
-    persist.vendor.audio.hw.binder.size_kbyte=1024 \
-    persist.vendor.audio.fluence.audiorec=true \
+    vendor.audio.tunnel.encode=false \
     persist.vendor.audio.ras.enabled=false \
     vendor.audio.offload.buffer.size.kb=64 \
     audio.offload.min.duration.secs=30 \
@@ -86,7 +83,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger.lowpower=false \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.cmc=false \
-    ro.vendor.sdk.sensors.gestures=false
+    ro.vendor.sdk.sensors.gestures=false \
+    vendor.audio_hal.in_period_size=144 \
+    vendor.audio_hal.period_multiplier=3 \
+    vendor.audio.adm.buffering.ms=2 \
+    persist.vendor.audio.hw.binder.size_kbyte=1024
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
