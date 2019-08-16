@@ -1,13 +1,13 @@
 [
   {
-    "repository": "srfarias/kernel_xiaomi_whyred",
-    "target_path": "kernel/xiaomi/whyred",
-    "branch": "caf-pie"
+    "repository": "kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "pie"
   },
   {
-    "repository": "rashedsahaji/Syberia_vendor_xiaomi_whyred",
+    "repository": "Sajidjnl/vendor_xiaomi_whyred",
     "target_path": "vendor/xiaomi/whyred",
-    "branch": "9.0"
+    "branch": "pie"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
